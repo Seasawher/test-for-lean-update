@@ -17,7 +17,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
       - name: Update Lean project
-        uses: leanprover-community/lean-update@develop
+        uses: leanprover-community/lean-update@main
         with:
           update_if_modified: lean-toolchain
           build_args: "--log-level=warning --fail-level=warning"
